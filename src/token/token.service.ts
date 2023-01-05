@@ -2,7 +2,8 @@ import { Injectable, Post } from '@nestjs/common';
 import { students } from  '../db'
 import { v4 as uuid } from 'uuid'
 import { HttpModule, HttpService } from '@nestjs/axios'
-import { pluck } from 'rxjs';
+import { map, pluck } from 'rxjs';
+import { Response } from '@nestjs/common';
 
 @Injectable()
 export class TokenService {
@@ -19,8 +20,10 @@ export class TokenService {
         // Normal get request doesnt seem to work.
         // Nest will return as JSON, but the response object is not JSON
         // It is a complex and large object
-        // We need to get the data property instead (response.data essentially)
-        return await this.httpService.get("https://randomuser.me/api").pipe(pluck('data'))
+        // We need to get the data property instead (response.data ess)
+
+        // You cannot just return the whole AxiosResponse object because it cannot be serialized to JSON.
+        return this.httpService.get("https://randomuser.me/api").pipe(map(response => response.data))
     }
 
 }

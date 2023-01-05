@@ -1,7 +1,7 @@
 import { ApiProperty } from "@nestjs/swagger"
 
 export class CreateStudentDto {
-    @ApiProperty({required: false})
+    @ApiProperty()
     name?: string
 
     @ApiProperty({required: false})

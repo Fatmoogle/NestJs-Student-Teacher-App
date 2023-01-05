@@ -14,6 +14,7 @@ export class TokenController {
     // @Header('Content-Type', 'application/x-www-form-urlencoded')
     async getToken() {
         // Have service get token, then send token as reponse through here
-        return await this.tokenService.getToken();
+        const token =  await this.tokenService.getToken();
+        return token
     }
 }

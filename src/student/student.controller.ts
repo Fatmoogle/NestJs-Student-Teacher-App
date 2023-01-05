@@ -1,5 +1,6 @@
 import { Body, Controller, Get, Header, Param, Post, Put } from '@nestjs/common';
 import { ApiOkResponse, ApiTags } from '@nestjs/swagger';
+import { TokenDto } from 'src/token/dto/token.dto';
 import { CreateStudentDto, FindStudentResponseDto, StudentResponseDto, UpdateStudentDto } from './dto/student.dto';
 import { StudentService } from './student.service';
 
@@ -52,4 +53,8 @@ export class StudentController {
     // This essentially means extract 'studentId' from req.params
     // and place it into studentId variable.
 
+    @Post("test")
+    test(@Body() test: TokenDto) {
+        
+    }
 }
