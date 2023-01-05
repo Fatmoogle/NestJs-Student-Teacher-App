@@ -39,4 +39,4 @@ export class StudentResponseDto {
 
     @ApiProperty({required: false})
     teacher?: string
-}
+} 
