@@ -2,6 +2,15 @@
 
 ##### Other Changes
 
+* **feat:**  added a new space in the code! WOW! (5195243d)
+* **fix:**
+  *  just another test of course (471f449f)
+  *  another test!! yay! (1c092897)
+
+#### 0.0.4 (2023-01-09)
+
+##### Other Changes
+
 * **fix:**
   *  just another test of course (471f449f)
   *  another test!! yay! (1c092897)
