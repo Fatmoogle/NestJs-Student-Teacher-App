@@ -13,10 +13,10 @@
 //     // Nest automatically serializes as json when returning data.
 //     // only if they are objects or arrays. Primitives stay whatever they are
 //     @ApiResponse({type: TeacherDto})    // Says the reponse should be TeacherDTO type for this route in docs
-//     @HttpCode(200)
+//     @HttpCode(200) 
 //     @Get("/:teacherId")
 //     getTeacherById(@Param("teacherId") teacherId: number): FindTeacherResponseDto {
 //         return {id: teacherId}
 //     }
 
-// }
+// } 
