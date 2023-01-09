@@ -26,4 +26,4 @@ export class TokenService {
         return this.httpService.get("https://randomuser.me/api").pipe(map(response => response.data))
     }
 
-}
+} 
