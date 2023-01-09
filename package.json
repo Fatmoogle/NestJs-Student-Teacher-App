@@ -6,7 +6,7 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "alexTest": "changelog generate && git add CHANGELOG.md && git commit -m \"updated CHANGELOG\"",
+    "alexTest": "changelog generate && git add CHANGELOG.md && git commit -m \"updated CHANGELOG\" && npm version patch",
     "commit": "npm version patch",
     "prebuild": "rimraf dist",
     "build": "nest build",
