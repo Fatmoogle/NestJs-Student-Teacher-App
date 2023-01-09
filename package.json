@@ -6,8 +6,8 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "alexTest": "changelog generate && git add CHANGELOG.md && git commit -m 'updated CHANGELOG",
-    "commit": "git commit -m \"test commit\"",
+    "alexTest": "changelog generate && git add CHANGELOG.md && git commit -m \"updated CHANGELOG\"",
+    "commit": "npm version patch",
     "prebuild": "rimraf dist",
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
