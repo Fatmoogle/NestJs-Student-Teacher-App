@@ -1,3 +1,9 @@
+#### 0.0.11 (2023-01-09)
+
+##### Other Changes
+
+* **feat:**  added new feature! (3f58525a)
+
 #### 0.0.10 (2023-01-09)
 
 ##### Other Changes
