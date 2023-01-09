@@ -17,4 +17,4 @@ export class TokenController {
         const token =  await this.tokenService.getToken();
         return token
     }
-}
+} 
