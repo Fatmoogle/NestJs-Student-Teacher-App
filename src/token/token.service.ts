@@ -24,6 +24,6 @@ export class TokenService {
 
         // You cannot just return the whole AxiosResponse object because it cannot be serialized to JSON.
         return this.httpService.get("https://randomuser.me/api").pipe(map(response => response.data))
-    }
+    } 
 
 } 
