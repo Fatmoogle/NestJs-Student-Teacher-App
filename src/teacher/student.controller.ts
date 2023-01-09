@@ -4,7 +4,7 @@
 
 // @ApiTags("Student/Teacher")
 // @Controller('teachers/:teacherId/students')
-// export class StudentTeacherController {
+// export class StudentTeacherController { 
 
 //     @Get()
 //     getStudentsByTeacher(@Param('teacherId') teacherId: string): FindStudentResponseDto[] {
