@@ -19,7 +19,7 @@ async function bootstrap() {  // Starts the project
 
   // Set up the route for the swagger docs
   SwaggerModule.setup('/', app, document)
-   
+    
   // Runs the app on port 3000
   await app.listen(3000);
 }
