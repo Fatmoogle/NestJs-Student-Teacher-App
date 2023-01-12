@@ -20,7 +20,7 @@ export class StudentService {
     createStudent(data: CreateStudentDto): StudentResponseDto {
         let newStudent = {
             id: uuid(),
-            name: "",
+            name: "",   
             teacher: ""
         }
 
