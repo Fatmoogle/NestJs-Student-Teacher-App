@@ -1,3 +1,9 @@
+#### 0.0.17 (2023-01-12)
+
+##### New Features
+
+* **Users:**  Can now search by users (9f59b43d)
+
 #### 0.0.16 (2023-01-12)
 
 ##### Bug Fixes
