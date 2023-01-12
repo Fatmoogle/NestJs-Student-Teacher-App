@@ -9,7 +9,7 @@ async function bootstrap() {  // Starts the project
 
   // @nestjs/swagger lets you build swagger API docs in the browser
   const config = new DocumentBuilder()
-    .setTitle("Teacher/Student Application with Nest JS")
+    .setTitle("Teacher/Student Application with Nest JS")  
     .setDescription("Simple Nest JS App to test framework")
     .setVersion("1.0.0")
     .build()
