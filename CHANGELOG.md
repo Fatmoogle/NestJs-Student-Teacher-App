@@ -1,3 +1,9 @@
+#### 0.0.19 (2023-01-12)
+
+##### New Features
+
+*  A new feature was added! (df8f6ab7)
+
 #### 0.0.18 (2023-01-12)
 
 ##### New Features
