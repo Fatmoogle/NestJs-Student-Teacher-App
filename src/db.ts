@@ -22,7 +22,7 @@ export let students = [
     {
         id: "1c250754-b656-11eb-8529-0242ac130003",
         name: "Kendrick Jenner",
-        teacher: "9c932736-b656-11eb-8529-0242ac130003" 
+        teacher: "9c932736-b656-11eb-8529-0242ac130003"  
     }
 ]
 
