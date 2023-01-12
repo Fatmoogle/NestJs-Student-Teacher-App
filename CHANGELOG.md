@@ -1,3 +1,10 @@
+#### 0.0.20 (2023-01-12)
+
+##### Bug Fixes
+
+*  added another fix (cc76a6e8)
+*  tweaked something (9ce62f1e)
+
 #### 0.0.19 (2023-01-12)
 
 ##### New Features
