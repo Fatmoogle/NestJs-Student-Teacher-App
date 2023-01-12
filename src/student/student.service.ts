@@ -13,7 +13,7 @@ export class StudentService {
 
     getStudentById(studentId: string): FindStudentResponseDto {
         return this.students.find(student => {
-            return student.id === studentId
+            return student.id === studentId  
         })
     }
 
