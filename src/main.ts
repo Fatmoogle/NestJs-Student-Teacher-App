@@ -13,7 +13,7 @@ async function bootstrap() {  // Starts the project
     .setDescription("Simple Nest JS App to test framework")
     .setVersion("1.0.0")
     .build()
-
+ 
   // Create a document and pass in the app and config options
   const document = SwaggerModule.createDocument(app, config);
 
