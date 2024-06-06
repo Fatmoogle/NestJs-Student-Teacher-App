@@ -6,5 +6,8 @@ export class TokenDto {
     
     @ApiProperty()
     age: string
+
+    @ApiProperty()
+    test: string
 }
 
